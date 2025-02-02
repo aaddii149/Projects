@@ -1,7 +1,7 @@
 def palindrome(num:int):
     rev = 0
     num1 = num
-    while (num1 > 0):
+    while (num1 != 0):
         rev = rev*10 + num1%10
         num1 = num1//10
 
