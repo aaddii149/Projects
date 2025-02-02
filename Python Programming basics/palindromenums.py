@@ -5,10 +5,7 @@ def palindrome(num:int):
         rev = rev*10 + num1%10
         num1 = num1//10
 
-    if (rev== num):
-        return(True)
-    else:
-        return(False)
+    return (rev== num)
     
 num = input("Please input a positive integer:")
 check = palindrome(int(num))
